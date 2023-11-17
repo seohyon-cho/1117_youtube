@@ -1,7 +1,7 @@
 const api_key = 'AIzaSyDwxSLXdnfN8bTNC5fnycohdatm0Qk4dLM';
 const playlist_id = 'PLIenA9X9sYeiVsnUyEbb4wSLjTUiDSK8y';
 const base_url = 'https://www.googleapis.com/youtube/v3/playlistItems';
-const result_url = `${base_url}?part=snippet&api_key=${api_key}&playlistId=${playlist_id}&maxResults=5`;
+const result_url = `${base_url}?part=snippet&key=${api_key}&playlistId=${playlist_id}&maxResults=5`;
 
 /*
   GET 방식 : 브라우저 url을 통해서 데이터를 요청하는 방식 
